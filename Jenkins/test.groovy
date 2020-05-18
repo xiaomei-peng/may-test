@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('extend storage'){
             steps{
-                echo "this is test"
+                echo "test webhook"
              }
             }
         }
