@@ -1,9 +1,10 @@
 pipeline{
     agent{label 'xiaomei'}
     stages{
-        stage('extend storage'){
+        stage('test'){
             steps{
                 echo "test webhook"
+                echo "test sync"
              }
             }
         }
